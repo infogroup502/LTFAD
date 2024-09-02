@@ -1,0 +1,1620 @@
+
+
+
+2024-08-16 16:15:59
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [5]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2745s/iter; left time: 102.9524s
+	speed: 0.0170s/iter; left time: 4.6707s
+Epoch: 1, Cost time: 30.446s 
+	speed: 0.2668s/iter; left time: 36.8235s
+	speed: 0.0166s/iter; left time: 0.6293s
+Epoch: 2, Cost time: 28.326s 
+anormly_ratio 0.5
+Threshold : 0.8257437762618082
+pa_accuracy           : 0.9919
+pa_precision          : 0.9840
+pa_recall             : 0.9784
+pa_f_score            : 0.9811
+MCC_score             : 0.9760
+Affiliation precision : 0.5739
+Affiliation recall    : 0.9363
+R_AUC_ROC             : 0.9529
+R_AUC_PR              : 0.9579
+VUS_ROC               : 0.9505
+VUS_PR                : 0.9561
+Accuracy : 0.9919, Precision : 0.9840, Recall : 0.9784, F-score : 0.9811 
+
+
+
+2024-08-16 16:18:31
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [6]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2777s/iter; left time: 104.1298s
+	speed: 0.0168s/iter; left time: 4.6199s
+Epoch: 1, Cost time: 30.732s 
+	speed: 0.2667s/iter; left time: 36.8056s
+	speed: 0.0167s/iter; left time: 0.6362s
+Epoch: 2, Cost time: 28.366s 
+anormly_ratio 0.5
+Threshold : 0.8226934152841585
+pa_accuracy           : 0.9918
+pa_precision          : 0.9835
+pa_recall             : 0.9784
+pa_f_score            : 0.9809
+MCC_score             : 0.9757
+Affiliation precision : 0.5780
+Affiliation recall    : 0.9374
+R_AUC_ROC             : 0.9529
+R_AUC_PR              : 0.9577
+VUS_ROC               : 0.9504
+VUS_PR                : 0.9559
+Accuracy : 0.9918, Precision : 0.9835, Recall : 0.9784, F-score : 0.9809 
+
+
+
+2024-08-16 16:21:03
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [9]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2761s/iter; left time: 103.5256s
+	speed: 0.0175s/iter; left time: 4.8037s
+Epoch: 1, Cost time: 30.675s 
+	speed: 0.2720s/iter; left time: 37.5361s
+	speed: 0.0174s/iter; left time: 0.6626s
+Epoch: 2, Cost time: 28.921s 
+anormly_ratio 0.5
+Threshold : 0.8743371358513864
+pa_accuracy           : 0.9834
+pa_precision          : 0.9824
+pa_recall             : 0.9398
+pa_f_score            : 0.9606
+MCC_score             : 0.9505
+Affiliation precision : 0.5531
+Affiliation recall    : 0.9273
+R_AUC_ROC             : 0.9354
+R_AUC_PR              : 0.9438
+VUS_ROC               : 0.9295
+VUS_PR                : 0.9393
+Accuracy : 0.9834, Precision : 0.9824, Recall : 0.9398, F-score : 0.9606 
+
+
+
+2024-08-16 16:23:36
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [10]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [6]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2773s/iter; left time: 103.9929s
+	speed: 0.0177s/iter; left time: 4.8670s
+Epoch: 1, Cost time: 30.872s 
+	speed: 0.2732s/iter; left time: 37.6948s
+	speed: 0.0175s/iter; left time: 0.6633s
+Epoch: 2, Cost time: 29.034s 
+anormly_ratio 0.5
+Threshold : 0.9082341343164473
+pa_accuracy           : 0.9838
+pa_precision          : 0.9841
+pa_recall             : 0.9398
+pa_f_score            : 0.9615
+MCC_score             : 0.9516
+Affiliation precision : 0.5612
+Affiliation recall    : 0.9238
+R_AUC_ROC             : 0.9356
+R_AUC_PR              : 0.9446
+VUS_ROC               : 0.9298
+VUS_PR                : 0.9401
+Accuracy : 0.9838, Precision : 0.9841, Recall : 0.9398, F-score : 0.9615 
+
+
+
+2024-08-16 16:26:10
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [15]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [9]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2802s/iter; left time: 105.0827s
+	speed: 0.0186s/iter; left time: 5.1205s
+Epoch: 1, Cost time: 31.243s 
+	speed: 0.2786s/iter; left time: 38.4492s
+	speed: 0.0188s/iter; left time: 0.7148s
+Epoch: 2, Cost time: 29.728s 
+anormly_ratio 0.5
+Threshold : 0.9554729428887369
+pa_accuracy           : 0.9839
+pa_precision          : 0.9844
+pa_recall             : 0.9398
+pa_f_score            : 0.9616
+MCC_score             : 0.9518
+Affiliation precision : 0.5780
+Affiliation recall    : 0.9331
+R_AUC_ROC             : 0.9355
+R_AUC_PR              : 0.9446
+VUS_ROC               : 0.9297
+VUS_PR                : 0.9402
+Accuracy : 0.9839, Precision : 0.9844, Recall : 0.9398, F-score : 0.9616 
+
+
+
+2024-08-16 16:28:45
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [18]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [10]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2752s/iter; left time: 103.2135s
+	speed: 0.0186s/iter; left time: 5.1070s
+Epoch: 1, Cost time: 30.751s 
+	speed: 0.2757s/iter; left time: 38.0495s
+	speed: 0.0189s/iter; left time: 0.7165s
+Epoch: 2, Cost time: 29.434s 
+anormly_ratio 0.5
+Threshold : 0.9625344175100332
+pa_accuracy           : 0.9836
+pa_precision          : 0.9833
+pa_recall             : 0.9398
+pa_f_score            : 0.9611
+MCC_score             : 0.9511
+Affiliation precision : 0.5591
+Affiliation recall    : 0.9274
+R_AUC_ROC             : 0.9354
+R_AUC_PR              : 0.9440
+VUS_ROC               : 0.9295
+VUS_PR                : 0.9396
+Accuracy : 0.9836, Precision : 0.9833, Recall : 0.9398, F-score : 0.9611 
+
+
+
+2024-08-16 16:31:19
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [30]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [18]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2851s/iter; left time: 106.9170s
+	speed: 0.0212s/iter; left time: 5.8196s
+Epoch: 1, Cost time: 32.078s 
+	speed: 0.2790s/iter; left time: 38.5040s
+	speed: 0.0204s/iter; left time: 0.7735s
+Epoch: 2, Cost time: 29.922s 
+anormly_ratio 0.5
+Threshold : 0.9893707522749903
+pa_accuracy           : 0.9837
+pa_precision          : 0.9835
+pa_recall             : 0.9398
+pa_f_score            : 0.9612
+MCC_score             : 0.9512
+Affiliation precision : 0.5750
+Affiliation recall    : 0.9417
+R_AUC_ROC             : 0.9355
+R_AUC_PR              : 0.9443
+VUS_ROC               : 0.9296
+VUS_PR                : 0.9398
+Accuracy : 0.9837, Precision : 0.9835, Recall : 0.9398, F-score : 0.9612 
+
+
+
+2024-08-16 16:33:56
+================ Hyperparameters ===============
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [45]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [27]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2872s/iter; left time: 107.6849s
+	speed: 0.0228s/iter; left time: 6.2602s
+Epoch: 1, Cost time: 32.497s 
+	speed: 0.2827s/iter; left time: 39.0067s
+	speed: 0.0238s/iter; left time: 0.9050s
+Epoch: 2, Cost time: 30.691s 
+anormly_ratio 0.5
+Threshold : 0.9980496990680696
+pa_accuracy           : 0.9838
+pa_precision          : 0.9843
+pa_recall             : 0.9398
+pa_f_score            : 0.9615
+MCC_score             : 0.9517
+Affiliation precision : 0.5664
+Affiliation recall    : 0.9331
+R_AUC_ROC             : 0.9355
+R_AUC_PR              : 0.9445
+VUS_ROC               : 0.9297
+VUS_PR                : 0.9401
+Accuracy : 0.9838, Precision : 0.9843, Recall : 0.9398, F-score : 0.9615 
+
+
+
+2024-08-16 16:36:34
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [5]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2782s/iter; left time: 104.3416s
+	speed: 0.0219s/iter; left time: 6.0326s
+Epoch: 1, Cost time: 31.603s 
+	speed: 0.2793s/iter; left time: 38.5367s
+	speed: 0.0174s/iter; left time: 0.6595s
+Epoch: 2, Cost time: 29.358s 
+anormly_ratio 0.6
+Threshold : 0.7195664143562638
+pa_accuracy           : 0.9913
+pa_precision          : 0.9812
+pa_recall             : 0.9784
+pa_f_score            : 0.9798
+MCC_score             : 0.9743
+Affiliation precision : 0.5655
+Affiliation recall    : 0.9441
+R_AUC_ROC             : 0.9526
+R_AUC_PR              : 0.9567
+VUS_ROC               : 0.9502
+VUS_PR                : 0.9549
+Accuracy : 0.9913, Precision : 0.9812, Recall : 0.9784, F-score : 0.9798 
+
+
+
+2024-08-16 16:39:09
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [6]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2784s/iter; left time: 104.4172s
+	speed: 0.0166s/iter; left time: 4.5625s
+Epoch: 1, Cost time: 30.841s 
+	speed: 0.2754s/iter; left time: 38.0096s
+	speed: 0.0169s/iter; left time: 0.6435s
+Epoch: 2, Cost time: 29.256s 
+anormly_ratio 0.6
+Threshold : 0.7168681017160435
+pa_accuracy           : 0.9912
+pa_precision          : 0.9806
+pa_recall             : 0.9784
+pa_f_score            : 0.9795
+MCC_score             : 0.9739
+Affiliation precision : 0.5781
+Affiliation recall    : 0.9470
+R_AUC_ROC             : 0.9527
+R_AUC_PR              : 0.9566
+VUS_ROC               : 0.9502
+VUS_PR                : 0.9547
+Accuracy : 0.9912, Precision : 0.9806, Recall : 0.9784, F-score : 0.9795 
+
+
+
+2024-08-16 16:41:43
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [9]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2789s/iter; left time: 104.6038s
+	speed: 0.0173s/iter; left time: 4.7613s
+Epoch: 1, Cost time: 30.925s 
+	speed: 0.2767s/iter; left time: 38.1884s
+	speed: 0.0205s/iter; left time: 0.7781s
+Epoch: 2, Cost time: 29.766s 
+anormly_ratio 0.6
+Threshold : 0.7734909434318739
+pa_accuracy           : 0.9828
+pa_precision          : 0.9792
+pa_recall             : 0.9398
+pa_f_score            : 0.9591
+MCC_score             : 0.9486
+Affiliation precision : 0.5573
+Affiliation recall    : 0.9389
+R_AUC_ROC             : 0.9352
+R_AUC_PR              : 0.9425
+VUS_ROC               : 0.9293
+VUS_PR                : 0.9380
+Accuracy : 0.9828, Precision : 0.9792, Recall : 0.9398, F-score : 0.9591 
+
+
+
+2024-08-16 16:44:19
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [10]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [6]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2815s/iter; left time: 105.5513s
+	speed: 0.0176s/iter; left time: 4.8492s
+Epoch: 1, Cost time: 31.242s 
+	speed: 0.2747s/iter; left time: 37.9130s
+	speed: 0.0177s/iter; left time: 0.6726s
+Epoch: 2, Cost time: 29.237s 
+anormly_ratio 0.6
+Threshold : 0.8171815873384692
+pa_accuracy           : 0.9832
+pa_precision          : 0.9811
+pa_recall             : 0.9398
+pa_f_score            : 0.9600
+MCC_score             : 0.9497
+Affiliation precision : 0.5490
+Affiliation recall    : 0.9345
+R_AUC_ROC             : 0.9352
+R_AUC_PR              : 0.9431
+VUS_ROC               : 0.9294
+VUS_PR                : 0.9387
+Accuracy : 0.9832, Precision : 0.9811, Recall : 0.9398, F-score : 0.9600 
+
+
+
+2024-08-16 16:46:55
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [15]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [9]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2818s/iter; left time: 105.6809s
+	speed: 0.0184s/iter; left time: 5.0630s
+Epoch: 1, Cost time: 31.389s 
+	speed: 0.2729s/iter; left time: 37.6596s
+	speed: 0.0184s/iter; left time: 0.6996s
+Epoch: 2, Cost time: 29.122s 
+anormly_ratio 0.6
+Threshold : 0.8900575644970363
+pa_accuracy           : 0.9832
+pa_precision          : 0.9811
+pa_recall             : 0.9398
+pa_f_score            : 0.9600
+MCC_score             : 0.9497
+Affiliation precision : 0.5623
+Affiliation recall    : 0.9445
+R_AUC_ROC             : 0.9353
+R_AUC_PR              : 0.9433
+VUS_ROC               : 0.9295
+VUS_PR                : 0.9388
+Accuracy : 0.9832, Precision : 0.9811, Recall : 0.9398, F-score : 0.9600 
+
+
+
+2024-08-16 16:49:32
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [18]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [10]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2900s/iter; left time: 108.7469s
+	speed: 0.0194s/iter; left time: 5.3237s
+Epoch: 1, Cost time: 32.363s 
+	speed: 0.2799s/iter; left time: 38.6326s
+	speed: 0.0223s/iter; left time: 0.8477s
+Epoch: 2, Cost time: 30.151s 
+anormly_ratio 0.6
+Threshold : 0.8965258297920288
+pa_accuracy           : 0.9830
+pa_precision          : 0.9800
+pa_recall             : 0.9398
+pa_f_score            : 0.9595
+MCC_score             : 0.9490
+Affiliation precision : 0.5558
+Affiliation recall    : 0.9352
+R_AUC_ROC             : 0.9351
+R_AUC_PR              : 0.9426
+VUS_ROC               : 0.9292
+VUS_PR                : 0.9382
+Accuracy : 0.9830, Precision : 0.9800, Recall : 0.9398, F-score : 0.9595 
+
+
+
+2024-08-16 16:52:11
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [30]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [18]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2906s/iter; left time: 108.9894s
+	speed: 0.0215s/iter; left time: 5.9214s
+Epoch: 1, Cost time: 32.665s 
+	speed: 0.2843s/iter; left time: 39.2299s
+	speed: 0.0209s/iter; left time: 0.7948s
+Epoch: 2, Cost time: 30.505s 
+anormly_ratio 0.6
+Threshold : 0.9582187598943773
+pa_accuracy           : 0.9831
+pa_precision          : 0.9805
+pa_recall             : 0.9398
+pa_f_score            : 0.9597
+MCC_score             : 0.9493
+Affiliation precision : 0.5552
+Affiliation recall    : 0.9442
+R_AUC_ROC             : 0.9353
+R_AUC_PR              : 0.9430
+VUS_ROC               : 0.9293
+VUS_PR                : 0.9384
+Accuracy : 0.9831, Precision : 0.9805, Recall : 0.9398, F-score : 0.9597 
+
+
+
+2024-08-16 16:54:51
+================ Hyperparameters ===============
+anormly_ratio: 0.6
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [45]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [27]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2928s/iter; left time: 109.7821s
+	speed: 0.0266s/iter; left time: 7.3104s
+Epoch: 1, Cost time: 33.795s 
+	speed: 0.2887s/iter; left time: 39.8363s
+	speed: 0.0232s/iter; left time: 0.8828s
+Epoch: 2, Cost time: 30.890s 
+anormly_ratio 0.6
+Threshold : 0.9877130790948894
+pa_accuracy           : 0.9833
+pa_precision          : 0.9814
+pa_recall             : 0.9398
+pa_f_score            : 0.9602
+MCC_score             : 0.9499
+Affiliation precision : 0.5637
+Affiliation recall    : 0.9405
+R_AUC_ROC             : 0.9353
+R_AUC_PR              : 0.9433
+VUS_ROC               : 0.9294
+VUS_PR                : 0.9388
+Accuracy : 0.9833, Precision : 0.9814, Recall : 0.9398, F-score : 0.9602 
+
+
+
+2024-08-16 16:57:34
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [5]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2888s/iter; left time: 108.3142s
+	speed: 0.0175s/iter; left time: 4.8201s
+Epoch: 1, Cost time: 31.950s 
+	speed: 0.2811s/iter; left time: 38.7984s
+	speed: 0.0174s/iter; left time: 0.6617s
+Epoch: 2, Cost time: 29.887s 
+anormly_ratio 0.7
+Threshold : 0.6070055955648512
+pa_accuracy           : 0.9907
+pa_precision          : 0.9784
+pa_recall             : 0.9784
+pa_f_score            : 0.9784
+MCC_score             : 0.9724
+Affiliation precision : 0.5562
+Affiliation recall    : 0.9483
+R_AUC_ROC             : 0.9523
+R_AUC_PR              : 0.9553
+VUS_ROC               : 0.9498
+VUS_PR                : 0.9535
+Accuracy : 0.9907, Precision : 0.9784, Recall : 0.9784, F-score : 0.9784 
+
+
+
+2024-08-16 17:00:12
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [6]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2857s/iter; left time: 107.1529s
+	speed: 0.0169s/iter; left time: 4.6453s
+Epoch: 1, Cost time: 31.546s 
+	speed: 0.2757s/iter; left time: 38.0462s
+	speed: 0.0173s/iter; left time: 0.6588s
+Epoch: 2, Cost time: 29.297s 
+anormly_ratio 0.7
+Threshold : 0.604374042809012
+pa_accuracy           : 0.9905
+pa_precision          : 0.9776
+pa_recall             : 0.9784
+pa_f_score            : 0.9780
+MCC_score             : 0.9720
+Affiliation precision : 0.5641
+Affiliation recall    : 0.9480
+R_AUC_ROC             : 0.9524
+R_AUC_PR              : 0.9552
+VUS_ROC               : 0.9498
+VUS_PR                : 0.9533
+Accuracy : 0.9905, Precision : 0.9776, Recall : 0.9784, F-score : 0.9780 
+
+
+
+2024-08-16 17:02:47
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [9]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2896s/iter; left time: 108.6012s
+	speed: 0.0184s/iter; left time: 5.0618s
+Epoch: 1, Cost time: 32.143s 
+	speed: 0.2842s/iter; left time: 39.2186s
+	speed: 0.0183s/iter; left time: 0.6968s
+Epoch: 2, Cost time: 30.236s 
+anormly_ratio 0.7
+Threshold : 0.6561361052394025
+pa_accuracy           : 0.9820
+pa_precision          : 0.9756
+pa_recall             : 0.9398
+pa_f_score            : 0.9574
+MCC_score             : 0.9463
+Affiliation precision : 0.5366
+Affiliation recall    : 0.9431
+R_AUC_ROC             : 0.9347
+R_AUC_PR              : 0.9407
+VUS_ROC               : 0.9288
+VUS_PR                : 0.9362
+Accuracy : 0.9820, Precision : 0.9756, Recall : 0.9398, F-score : 0.9574 
+
+
+
+2024-08-16 17:05:26
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [10]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [6]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2805s/iter; left time: 105.1735s
+	speed: 0.0174s/iter; left time: 4.7719s
+Epoch: 1, Cost time: 31.100s 
+	speed: 0.2758s/iter; left time: 38.0615s
+	speed: 0.0173s/iter; left time: 0.6579s
+Epoch: 2, Cost time: 29.316s 
+anormly_ratio 0.7
+Threshold : 0.710317438125613
+pa_accuracy           : 0.9828
+pa_precision          : 0.9792
+pa_recall             : 0.9398
+pa_f_score            : 0.9591
+MCC_score             : 0.9486
+Affiliation precision : 0.5497
+Affiliation recall    : 0.9400
+R_AUC_ROC             : 0.9349
+R_AUC_PR              : 0.9421
+VUS_ROC               : 0.9291
+VUS_PR                : 0.9377
+Accuracy : 0.9828, Precision : 0.9792, Recall : 0.9398, F-score : 0.9591 
+
+
+
+2024-08-16 17:08:01
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [15]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [9]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2886s/iter; left time: 108.2280s
+	speed: 0.0182s/iter; left time: 4.9917s
+Epoch: 1, Cost time: 32.029s 
+	speed: 0.2809s/iter; left time: 38.7655s
+	speed: 0.0185s/iter; left time: 0.7039s
+Epoch: 2, Cost time: 29.933s 
+anormly_ratio 0.7
+Threshold : 0.7936431494355265
+pa_accuracy           : 0.9826
+pa_precision          : 0.9784
+pa_recall             : 0.9398
+pa_f_score            : 0.9588
+MCC_score             : 0.9481
+Affiliation precision : 0.5551
+Affiliation recall    : 0.9500
+R_AUC_ROC             : 0.9350
+R_AUC_PR              : 0.9421
+VUS_ROC               : 0.9292
+VUS_PR                : 0.9376
+Accuracy : 0.9826, Precision : 0.9784, Recall : 0.9398, F-score : 0.9588 
+
+
+
+2024-08-16 17:10:38
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [18]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [10]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2835s/iter; left time: 106.3158s
+	speed: 0.0188s/iter; left time: 5.1742s
+Epoch: 1, Cost time: 31.594s 
+	speed: 0.2782s/iter; left time: 38.3982s
+	speed: 0.0187s/iter; left time: 0.7118s
+Epoch: 2, Cost time: 29.686s 
+anormly_ratio 0.7
+Threshold : 0.7997240631580377
+pa_accuracy           : 0.9822
+pa_precision          : 0.9763
+pa_recall             : 0.9398
+pa_f_score            : 0.9577
+MCC_score             : 0.9467
+Affiliation precision : 0.5616
+Affiliation recall    : 0.9471
+R_AUC_ROC             : 0.9348
+R_AUC_PR              : 0.9411
+VUS_ROC               : 0.9289
+VUS_PR                : 0.9365
+Accuracy : 0.9822, Precision : 0.9763, Recall : 0.9398, F-score : 0.9577 
+
+
+
+2024-08-16 17:13:15
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [30]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [18]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2812s/iter; left time: 105.4342s
+	speed: 0.0207s/iter; left time: 5.6912s
+Epoch: 1, Cost time: 31.577s 
+	speed: 0.2828s/iter; left time: 39.0329s
+	speed: 0.0205s/iter; left time: 0.7798s
+Epoch: 2, Cost time: 30.352s 
+anormly_ratio 0.7
+Threshold : 0.8935269932150987
+pa_accuracy           : 0.9824
+pa_precision          : 0.9775
+pa_recall             : 0.9398
+pa_f_score            : 0.9583
+MCC_score             : 0.9475
+Affiliation precision : 0.5602
+Affiliation recall    : 0.9481
+R_AUC_ROC             : 0.9348
+R_AUC_PR              : 0.9415
+VUS_ROC               : 0.9290
+VUS_PR                : 0.9370
+Accuracy : 0.9824, Precision : 0.9775, Recall : 0.9398, F-score : 0.9583 
+
+
+
+2024-08-16 17:15:54
+================ Hyperparameters ===============
+anormly_ratio: 0.7
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [45]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [27]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2789s/iter; left time: 104.5975s
+	speed: 0.0230s/iter; left time: 6.3219s
+Epoch: 1, Cost time: 31.737s 
+	speed: 0.2905s/iter; left time: 40.0839s
+	speed: 0.0233s/iter; left time: 0.8857s
+Epoch: 2, Cost time: 31.304s 
+anormly_ratio 0.7
+Threshold : 0.9512328137755395
+pa_accuracy           : 0.9825
+pa_precision          : 0.9778
+pa_recall             : 0.9398
+pa_f_score            : 0.9585
+MCC_score             : 0.9477
+Affiliation precision : 0.5750
+Affiliation recall    : 0.9523
+R_AUC_ROC             : 0.9349
+R_AUC_PR              : 0.9417
+VUS_ROC               : 0.9290
+VUS_PR                : 0.9372
+Accuracy : 0.9825, Precision : 0.9778, Recall : 0.9398, F-score : 0.9585 
+
+
+
+2024-08-16 17:18:33
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [5]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2814s/iter; left time: 105.5158s
+	speed: 0.0168s/iter; left time: 4.6311s
+Epoch: 1, Cost time: 31.132s 
+	speed: 0.2795s/iter; left time: 38.5678s
+	speed: 0.0209s/iter; left time: 0.7959s
+Epoch: 2, Cost time: 30.036s 
+anormly_ratio 0.8
+Threshold : 0.5049954838752766
+pa_accuracy           : 0.9899
+pa_precision          : 0.9748
+pa_recall             : 0.9784
+pa_f_score            : 0.9766
+MCC_score             : 0.9701
+Affiliation precision : 0.5552
+Affiliation recall    : 0.9566
+R_AUC_ROC             : 0.9520
+R_AUC_PR              : 0.9539
+VUS_ROC               : 0.9495
+VUS_PR                : 0.9520
+Accuracy : 0.9899, Precision : 0.9748, Recall : 0.9784, F-score : 0.9766 
+
+
+
+2024-08-16 17:21:10
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [6]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2801s/iter; left time: 105.0242s
+	speed: 0.0171s/iter; left time: 4.6997s
+Epoch: 1, Cost time: 31.022s 
+	speed: 0.2744s/iter; left time: 37.8606s
+	speed: 0.0170s/iter; left time: 0.6444s
+Epoch: 2, Cost time: 29.126s 
+anormly_ratio 0.8
+Threshold : 0.5036475687026986
+pa_accuracy           : 0.9898
+pa_precision          : 0.9742
+pa_recall             : 0.9784
+pa_f_score            : 0.9763
+MCC_score             : 0.9698
+Affiliation precision : 0.5499
+Affiliation recall    : 0.9522
+R_AUC_ROC             : 0.9519
+R_AUC_PR              : 0.9535
+VUS_ROC               : 0.9494
+VUS_PR                : 0.9516
+Accuracy : 0.9898, Precision : 0.9742, Recall : 0.9784, F-score : 0.9763 
+
+
+
+2024-08-16 17:23:45
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [9]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2850s/iter; left time: 106.8636s
+	speed: 0.0174s/iter; left time: 4.7805s
+Epoch: 1, Cost time: 31.526s 
+	speed: 0.2741s/iter; left time: 37.8294s
+	speed: 0.0172s/iter; left time: 0.6519s
+Epoch: 2, Cost time: 29.174s 
+anormly_ratio 0.8
+Threshold : 0.5519252762794502
+pa_accuracy           : 0.9815
+pa_precision          : 0.9731
+pa_recall             : 0.9398
+pa_f_score            : 0.9562
+MCC_score             : 0.9447
+Affiliation precision : 0.5462
+Affiliation recall    : 0.9519
+R_AUC_ROC             : 0.9344
+R_AUC_PR              : 0.9396
+VUS_ROC               : 0.9285
+VUS_PR                : 0.9351
+Accuracy : 0.9815, Precision : 0.9731, Recall : 0.9398, F-score : 0.9562 
+
+
+
+2024-08-16 17:26:22
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [10]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [6]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2817s/iter; left time: 105.6532s
+	speed: 0.0175s/iter; left time: 4.8115s
+Epoch: 1, Cost time: 31.221s 
+	speed: 0.2762s/iter; left time: 38.1122s
+	speed: 0.0175s/iter; left time: 0.6650s
+Epoch: 2, Cost time: 29.381s 
+anormly_ratio 0.8
+Threshold : 0.5979582052230872
+pa_accuracy           : 0.9820
+pa_precision          : 0.9756
+pa_recall             : 0.9398
+pa_f_score            : 0.9574
+MCC_score             : 0.9463
+Affiliation precision : 0.5514
+Affiliation recall    : 0.9560
+R_AUC_ROC             : 0.9345
+R_AUC_PR              : 0.9405
+VUS_ROC               : 0.9287
+VUS_PR                : 0.9360
+Accuracy : 0.9820, Precision : 0.9756, Recall : 0.9398, F-score : 0.9574 
+
+
+
+2024-08-16 17:28:59
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [15]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [9]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2823s/iter; left time: 105.8682s
+	speed: 0.0181s/iter; left time: 4.9840s
+Epoch: 1, Cost time: 31.378s 
+	speed: 0.2761s/iter; left time: 38.0976s
+	speed: 0.0185s/iter; left time: 0.7017s
+Epoch: 2, Cost time: 29.480s 
+anormly_ratio 0.8
+Threshold : 0.674146300315857
+pa_accuracy           : 0.9819
+pa_precision          : 0.9749
+pa_recall             : 0.9398
+pa_f_score            : 0.9570
+MCC_score             : 0.9458
+Affiliation precision : 0.5546
+Affiliation recall    : 0.9582
+R_AUC_ROC             : 0.9346
+R_AUC_PR              : 0.9404
+VUS_ROC               : 0.9287
+VUS_PR                : 0.9359
+Accuracy : 0.9819, Precision : 0.9749, Recall : 0.9398, F-score : 0.9570 
+
+
+
+2024-08-16 17:31:35
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [18]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [10]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2856s/iter; left time: 107.1126s
+	speed: 0.0184s/iter; left time: 5.0568s
+Epoch: 1, Cost time: 31.769s 
+	speed: 0.2795s/iter; left time: 38.5688s
+	speed: 0.0189s/iter; left time: 0.7165s
+Epoch: 2, Cost time: 29.851s 
+anormly_ratio 0.8
+Threshold : 0.6752470674514776
+pa_accuracy           : 0.9816
+pa_precision          : 0.9738
+pa_recall             : 0.9398
+pa_f_score            : 0.9565
+MCC_score             : 0.9451
+Affiliation precision : 0.5590
+Affiliation recall    : 0.9530
+R_AUC_ROC             : 0.9345
+R_AUC_PR              : 0.9398
+VUS_ROC               : 0.9285
+VUS_PR                : 0.9353
+Accuracy : 0.9816, Precision : 0.9738, Recall : 0.9398, F-score : 0.9565 
+
+
+
+2024-08-16 17:34:13
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [30]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [18]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2861s/iter; left time: 107.2790s
+	speed: 0.0208s/iter; left time: 5.7107s
+Epoch: 1, Cost time: 32.085s 
+	speed: 0.2810s/iter; left time: 38.7810s
+	speed: 0.0205s/iter; left time: 0.7805s
+Epoch: 2, Cost time: 30.173s 
+anormly_ratio 0.8
+Threshold : 0.7840052509307898
+pa_accuracy           : 0.9817
+pa_precision          : 0.9742
+pa_recall             : 0.9398
+pa_f_score            : 0.9567
+MCC_score             : 0.9454
+Affiliation precision : 0.5640
+Affiliation recall    : 0.9541
+R_AUC_ROC             : 0.9346
+R_AUC_PR              : 0.9401
+VUS_ROC               : 0.9287
+VUS_PR                : 0.9356
+Accuracy : 0.9817, Precision : 0.9742, Recall : 0.9398, F-score : 0.9567 
+
+
+
+2024-08-16 17:36:51
+================ Hyperparameters ===============
+anormly_ratio: 0.8
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [45]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [27]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2883s/iter; left time: 108.1119s
+	speed: 0.0269s/iter; left time: 7.4079s
+Epoch: 1, Cost time: 33.607s 
+	speed: 0.2933s/iter; left time: 40.4713s
+	speed: 0.0223s/iter; left time: 0.8459s
+Epoch: 2, Cost time: 30.998s 
+anormly_ratio 0.8
+Threshold : 0.8637859673500062
+pa_accuracy           : 0.9901
+pa_precision          : 0.9757
+pa_recall             : 0.9784
+pa_f_score            : 0.9770
+MCC_score             : 0.9707
+Affiliation precision : 0.5810
+Affiliation recall    : 0.9626
+R_AUC_ROC             : 0.9522
+R_AUC_PR              : 0.9543
+VUS_ROC               : 0.9497
+VUS_PR                : 0.9525
+Accuracy : 0.9901, Precision : 0.9757, Recall : 0.9784, F-score : 0.9770 
+
+
+
+2024-08-16 17:39:32
+================ Hyperparameters ===============
+anormly_ratio: 0.9
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [5]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2851s/iter; left time: 106.8977s
+	speed: 0.0165s/iter; left time: 4.5501s
+Epoch: 1, Cost time: 31.438s 
+	speed: 0.2752s/iter; left time: 37.9708s
+	speed: 0.0166s/iter; left time: 0.6291s
+Epoch: 2, Cost time: 29.174s 
+anormly_ratio 0.9
+Threshold : 0.4186532557606677
+pa_accuracy           : 0.9891
+pa_precision          : 0.9711
+pa_recall             : 0.9784
+pa_f_score            : 0.9747
+MCC_score             : 0.9678
+Affiliation precision : 0.5476
+Affiliation recall    : 0.9629
+R_AUC_ROC             : 0.9516
+R_AUC_PR              : 0.9521
+VUS_ROC               : 0.9490
+VUS_PR                : 0.9503
+Accuracy : 0.9891, Precision : 0.9711, Recall : 0.9784, F-score : 0.9747 
+
+
+
+2024-08-16 17:42:07
+================ Hyperparameters ===============
+anormly_ratio: 0.9
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [6]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+====================  Train  ===================
+	speed: 0.2895s/iter; left time: 108.5607s
+	speed: 0.0195s/iter; left time: 5.3525s
+Epoch: 1, Cost time: 32.183s 
+	speed: 0.2764s/iter; left time: 38.1376s
+	speed: 0.0166s/iter; left time: 0.6304s
+Epoch: 2, Cost time: 29.320s 
+anormly_ratio 0.9
+Threshold : 0.4177863440215546
