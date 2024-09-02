@@ -20,8 +20,22 @@ pip install -r requirements.txt
 
 ## Data
 The datasets can be obtained and put into datasets/ folder in the following way:
-- For univariate datasets : You can download at (https://github.com/TheDatumOrg/TSB-UAD) and split them  60% into training set (_<datasaet>_train.npy) and 40% into test set (_<datasaet>_test.npy), and save the labels out as (< datasaet>_test_label.npy)
-- For multivariate datasets : - [MSL](https://github.com/zhouhaoyi/ETDataset) should be placed at `datasets/MSL/MSL_train.npy...`.
-                              - [SMD](https://github.com/NetManAIOps/OmniAnomaly) should be placed at `datasets/SMD/SMD.csv`.
-                              - [SMAP](https://en.wikipedia.org/wiki/Soil_Moisture_Active_Passive) should be placed at `datasets/SMAP/SMAP.csv`.
-                              - [SwaT](https://drive.google.com/drive/folders/1ABZKdclka3e2NXBSxS9z2YF59p7g2Y5I) should be placed at `datasets/SwaT/SwaT.csv`.
+- Our model supports anomaly detection for univariate and multivariate time series datasets.
+- We provide the Dodgers and PUMP datasets. If you want to use your own dataset, please place your datasetfiles in the `/dataset/<dataset>/` folder, following the format `<dataset>_train.npy`, `<dataset>_test.npy`, `<dataset>_test_label.npy`.
+
+## Code Description
+There are six files/folders in the source
+- data_factory: The preprocessing folder/file. All datasets preprocessing codes are here.
+- main.py: The main python file. You can adjustment all parameters in there.
+- metrics: There is the evaluation metrics code folder.
+- model: LTFAD model folder
+- solver.py: Another python file. The training, validation, and testing processing are all in there
+- requirements.txt: Python packages needed to run this repo
+
+- ## Usage
+1. Install Python 3.9, PyTorch >= 1.4.0
+2. Download the datasets
+3. To train and evaluate LTFAD on a dataset, run the following command:
+```bash
+python main.py 
+```
