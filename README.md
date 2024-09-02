@@ -2,7 +2,7 @@
 
 
 ## Requirements
-The recommended requirements for LFTSAD are specified as follows:
+The recommended requirements for LTFAD are specified as follows:
 - torch==1.13.0
 - numpy==1.26.4
 - pandas==2.2.2
