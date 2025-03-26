@@ -45,3 +45,123 @@ r: 0.2
 use_gpu: True
 use_multi_gpu: True
 win_size: 90
+
+ECG：
+anormly_ratio: 1.0
+batch_size: 128
+d_model: 128
+data_path: ECG
+dataset: ECG
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [15]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [6]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 3
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+
+NAB:
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: NAB
+dataset: NAB
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [35]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [3]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 3
+output_c: 1
+r: 0.6
+use_gpu: True
+use_multi_gpu: True
+win_size: 105
+
+SensorScope:
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SensorScope
+dataset: SensorScope
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [9]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.7
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+
+SVDB:
+anormly_ratio: 0.5
+batch_size: 128
+d_model: 128
+data_path: SVDB
+dataset: SVDB
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [60]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [20]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 3
+output_c: 1
+r: 0.3
+use_gpu: True
+use_multi_gpu: True
+win_size: 105
+
+Genesis:
+anormly_ratio: 0.3
+batch_size: 128
+d_model: 128
+data_path: Genesis
+dataset: Genesis
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [15]
+gpu: 0
+index: 137
+input_c: 18
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 3
+output_c: 18
+r: 0.1
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
