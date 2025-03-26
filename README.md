@@ -1,4 +1,4 @@
-# LTFAD
+# A lightweight All-MLP time–frequency anomaly detection for IIoT time series
 This repository provides a PyTorch implementation of LTFAD ([paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608025002795?via%3Dihub)).
 ## Framework
 <img src="https://github.com/infogroup502/LTFAD/blob/main/img/workflow.png" width="850px">
