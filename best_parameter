@@ -1,0 +1,47 @@
+SKAB：
+anormly_ratio: 0.3
+batch_size: 128
+d_model: 128
+data_path: SKAB
+dataset: SKAB
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [13]
+gpu: 0
+index: 137
+input_c: 8
+local_size: [5]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 8
+r: 0.1
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
+
+Dodgers：
+anormly_ratio: 1.0
+batch_size: 128
+d_model: 128
+data_path: Dodgers
+dataset: Dodgers
+device_ids: [0, 1, 2, 3]
+devices: 0,1,2,3
+global_size: [63]
+gpu: 0
+index: 137
+input_c: 1
+local_size: [25]
+loss_fuc: MSE
+lr: 0.0001
+mode: train
+model_save_path: checkpoints
+num_epochs: 2
+output_c: 1
+r: 0.2
+use_gpu: True
+use_multi_gpu: True
+win_size: 90
